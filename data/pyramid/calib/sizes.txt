@@ -1,0 +1,11 @@
+
+MNc = [2076, 3088]; % Image Resolution
+MNp = [1024, 1280]; % Projector Resolution
+MNb = [  70,  100]; % Checkerboard Size
+MNr = [   7,   10]; % Checkerboard Rectangles
+
+ppf = 25; % Pixels per fringe
+
+% Frequency multipliers (for phase unwrapping)
+alpX = (MNp(2)/ppf)^( 1/(ng-1) );
+alpY = (MNp(1)/ppf)^( 1/(ng-1) );
