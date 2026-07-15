@@ -1,0 +1,6 @@
+Data for system calibration
+
+MNr = [   7,   10]; % Checkerboard Rectangles
+MNb = [ 161,  230]; % Checkerboard Size
+MNc = [2076, 3088]; % Image Resolution
+MNp = [ 737, 1280]; % Projector Resolution
